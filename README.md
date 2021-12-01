@@ -13,5 +13,5 @@ cd Day-$X/Python && python3 main.py < ../$X.in && cd ../..
 cd Day-$X/Java && javac Main.java && java Main < ../$X.in && cd ../..
 
 # C++
-cd Day-$X/C++ && g++ -o main main.cpp && ./main < ../$X.in && cd ../..
+cd Day-$X/C++ && g++ -o mainc main.cpp && ./mainc < ../$X.in && cd ../..
 ```
