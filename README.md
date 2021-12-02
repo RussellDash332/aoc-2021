@@ -4,7 +4,7 @@ All my Advent of Code 2021 attempts! Mainly in Python.
 
 ## Note to Self
 ```sh
-export X = ... # day number
+export X=... # day number
 
 # Python
 cd Day-$X/Python && python3 main.py < ../$X.in && cd ../..
