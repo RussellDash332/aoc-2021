@@ -35,7 +35,7 @@ for i in range(len(right)):
                 mapping[six] = '6'
     for j in left[i]:
         if len(j) == 5:
-            if not set(zero).difference(set(six)).issubset(set(j)):
+            if not (set(zero) - set(six)).issubset(set(j)):
                 mapping[str().join(sorted(j))] = '5'
             elif set(one).issubset(set(j)):
                 mapping[str().join(sorted(j))] = '3'
