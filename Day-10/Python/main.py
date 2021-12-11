@@ -1,8 +1,8 @@
 import sys
 
 err, com = 0, []
-end_brackets = [')', ']', '}', '>']
-open_brackets = ['(', '[', '{', '<']
+end_brackets = ')]}>'
+open_brackets = '([{<'
 errmap = dict(zip(end_brackets, [3, 57, 1197, 25137]))
 commap = dict(zip(end_brackets, [1, 2, 3, 4]))
 match = dict(zip(end_brackets, open_brackets))
