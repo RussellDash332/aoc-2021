@@ -14,4 +14,7 @@ cd Day-$X/Java && javac Main.java && java Main < ../$X.in && cd ../..
 
 # C++
 cd Day-$X/C++ && g++ -o mainc main.cpp && ./mainc < ../$X.in && cd ../..
+
+# Haskell
+cd Day-$X/Haskell && runhaskell main.hs && cd ../..
 ```
