@@ -6,6 +6,8 @@ All my Advent of Code 2021 attempts! Mainly in Python.
 ```sh
 export X=... # day number
 
+# Note that .in files are hidden but it should be within Day-<X>/<X>.in
+
 # Python
 cd Day-$X/Python && python3 main.py < ../$X.in && cd ../..
 
